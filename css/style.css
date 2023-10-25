@@ -25,10 +25,10 @@
   background-position: center;
 }
 .container00.container01 {
-  background-image: url("/img/ifood-i.jpg");
+  background-image: url("../img/ifood-i.jpg");
 }
 .container00.container03 {
-  background-image: url("/img/ifood-ii.jpeg");
+  background-image: url("../img/ifood-ii.jpeg");
 }
 .container00.container04 {
   background-color: #F22727;
