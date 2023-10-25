@@ -1,3 +1,7 @@
+# Como usar?
+
+https://gustavocorreiadev.github.io/ifoodNewTheme/
+
 # Projeto final turma #1096
 
 ### Desenvolvimento de uma proposta de site para o Ifood.
