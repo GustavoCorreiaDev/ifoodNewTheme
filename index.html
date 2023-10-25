@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/ifood.svg" type="image/x-icon">
+
+    <title>Ifood</title>
+</head>
+
+<body>
+
+    <!-- header/ page 01 -->
+    <div class="container-fluid container00 container01">
+        <div class="container">
+            <header class="header">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-transparent pt-4">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="/index.html">
+                            <img src="img/logo.png" alt="logo-ifood" class="logoPc">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active fs-5" aria-current="page" href="#cardapio"
+                                        id="navItem">Cardápio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active fs-5" href="#restaurante" id="navItem">Restaurantes</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active fs-5" href="#contato" id="navItem">Contatos</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+        </div>
+        <!-- header/ page 01 -->
+        <div class="container titlePadding">
+            <div id="bgTransparent">
+                <p>Bem-vindo ao iFood, onde a paixão pela comida encontra a inovação. Nossa visão é criar uma
+                    experiência gastronômica excepcional para todos, em todos os lugares. Com o iFood renovado, você
+                    desfrutará de uma jornada culinária totalmente aprimorada.</p>
+                <p class="h1">iFood: A Revolução</p>
+            </div>
+            <button type="button" class="btn btn-outline-light mt-5" id="button">SAIBA MAIS</button>
+        </div>
+    </div>
+
+    <!-- digital menu -->
+    <div class="container02" id="cardapio">
+        <div class="container titlePadding">
+            <div id="container-fluid">
+
+                <p class="h1">Novos Pratos:</p>
+                <p class="text-justify">Estamos entusiasmados em apresentar nossos novos pratos no menu. Experimente o
+                    suculento Frango Grelhado, com peito macio marinado em ervas frescas, ou delicie-se com nosso
+                    Waffle, um pão fofo e dourado cozido na máquina de waffle. Além disso, não perca nosso Sanduíche de
+                    Frango Grelhado com Abacate e Bacon, uma combinação de sabores e texturas únicas que certamente
+                    encantará seu paladar. Venha e descubra as deliciosas adições ao nosso cardápio!</p>
+            </div>
+        </div>
+        <div class="container-card">
+            <div class="card" style="width: 15rem;">
+                <img src="img/disher-1.jpg" class="card-img-top" alt="...">
+                <div class="card-body cardPersonal">
+                    <h5 class="card-title">FRANGO GRELHADO</h5>
+                    <p class="card-text text-secondary">Peito de frango suculento, marinado em ervas e grelhado.</p>
+                    <a href="#" class="btn btn-primary" >VER MAIS...</a>
+                </div>
+            </div>
+            <div class="card" style="width: 15rem;">
+                <img src="img/disher-2.jpg" class="card-img-top" alt="...">
+                <div class="card-body cardPersonal">
+                    <h5 class="card-title">WAFFLE</h5>
+                    <p class="card-text text-secondary">Pão macio e fofo, com textura crocante na superfície.</p>
+                    <a href="#" class="btn btn-primary">VER MAIS...</a>
+
+                </div>
+            </div>
+            <div class="card" style="width: 15rem;">
+                <img src="img/disher-3.jpg" class="card-img-top" alt="...">
+                <div class="card-body cardPersonal">
+                    <h5 class="card-title">SANDWICH</h5>
+                    <p class="card-text text-secondary">Sanduíche equilibrado com frango grelhado, abacate e bacon
+                        crocante.</p>
+                    <a href="#" class="btn btn-primary">VER MAIS...</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- restaurant -->
+    <div class="container-fluid container00 container03">
+        <div class="container titlePadding">
+            <p class="h5" id="lauchComing"></p>
+            <p class="h1 shortTitle">RESTAURANTES</p>
+        </div>
+        <div class="container"  id="tableRestaurante">
+            <table class="table table-hover">
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">NOME</th>
+                  <th scope="col">ESTRELAS</th>
+                  <th scope="col">CATEGORIAS</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>1</th>
+                  <td>Mark</td>
+                  <td>4.8</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <th>2</th>
+                  <td>Ma</td>
+                  <td>4.9</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <th>3</th>
+                  <td>Mar</td>
+                  <td>5.0</td>
+                  <td>chinesa</td>
+                </tr>
+                <tr>
+                  <th>3</th>
+                  <td>Mar</td>
+                  <td>5.0</td>
+                  <td>chinesa</td>
+                </tr>
+                <tr>
+                  <th>5</th>
+                  <td>Mar</td>
+                  <td>5.0</td>
+                  <td>chinesa</td>
+                </tr>
+                <tr>
+                  <th>6</th>
+                  <td>Mar</td>
+                  <td>5.0</td>
+                  <td>chinesa</td>
+                </tr>
+              </tbody>
+          </table>
+        </div>
+    </div>
+    <!-- contact -->
+    <div class="container02" id="cardapio">
+        <div class="container titlePadding">
+            <div id="container-fluid">
+
+                <p class="h1">Feedback:</p>
+                <p class="text-justify">Entre em contato conosco para tirar dúvidas, fazer perguntas ou simplesmente dizer olá. Estamos aqui para atendê-lo!</p>
+            </div>
+        </div>
+        <div class="container-contact">
+            <form class="row g-3 p-4" onsubmit="onSubmit()">
+                <div class="col-md-4">
+                    <label for="validationServer01" class="form-label">First name</label>
+                    <input type="text" class="form-control" id="validationServer01" value="" required>
+                </div>
+                <div class="col-md-4">
+                    <label for="validationServerUsername" class="form-label">Username</label>
+                    <div class="input-group has-validation">
+                        <span class="input-group-text" id="inputGroupPrepend3">@</span>
+                        <input type="email" class="form-control" id="validationServerUsername"
+                            aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+                    </div>
+                </div>
+                <div class="mb-5">
+                    <label for="validationTextarea" class="form-label">Menssagem</label>
+                    <textarea class="form-control h-100 textArea" id="validationTextarea" placeholder="Digite aqui sua menssagem!" required></textarea>
+                </div>
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3"
+                            aria-describedby="invalidCheck3Feedback" required>
+                        <label class="form-check-label text-white" for="invalidCheck3">
+                            confirme que você não é um robô!
+                        </label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button class="btn btn-outline-light mt-5" id="button" type="submit">Submit form</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="container-fluid footer">
+        <span class="ml-4 copyGt">
+            GtDev &copy;2023
+        </span>
+        <a href="https://www.linkedin.com/in/gustavocorreiadev/" target="_blank" class="me-4">Linkedin</a>
+        <a href="https://gustavocorreiadev.github.io/portfolio/" target="_blank" class="me-4">Portfólio</a>
+        <a href="https://github.com/GustavoCorreiaDev" target="_blank">GitHub</a>
+    </footer>
+
+
+
+
+    <!-- bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- js -->
+    <script>
+        function onSubmit() {
+            alert('Feedback enviado com sucesso!')
+        }
+    </script>
+</body>
+
+</html>

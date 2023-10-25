@@ -1,0 +1,144 @@
+.header {
+    font-size: 12px;
+    font-weight: bold;
+
+    #navItem {
+        &:hover {
+            color: $link-hover;
+        }
+    }
+}
+
+#bgTransparent {
+    background-color: rgba(0, 0, 0, 0.35);
+    display: block;
+    max-width: 400px;
+    text-align: justify;
+    padding: $padding-button;
+}
+
+.container00 {
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &.container01 {
+        background-image: url(/img/ifood-i.jpg);
+    }
+
+    &.container03 {
+        background-image: url(/img/ifood-ii.jpeg)
+    }
+
+    &.container04 {
+        background-color: $background;
+    }
+}
+.container02 {
+    min-height: 100vh;
+    background-color: $background;
+}
+
+.container-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.text-justify{
+    text-align: justify;
+}
+.logoPc {
+    padding: 0;
+    width: 200px;
+    margin-left: -10px;
+    margin-right: 20px;
+}
+
+.titlePadding {
+    padding-top: 200px;
+}
+
+.shortTitle {
+    width: 550px;
+    margin-bottom: -25px;
+}
+
+.mediumTitle {
+    width:  650px;
+    margin-bottom: -25px;
+}
+
+#button {
+    padding: $padding-button;
+}
+.container-contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.textArea {
+    max-width: 758px;
+}
+
+.footer {
+    background-color: black;
+    height: 15vh;
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a{
+        text-decoration: none;
+        color: white;
+
+        &:hover {
+            color: $link-hover;
+        }
+    }
+
+    .copyGt{
+        color: $copy-color;
+    }
+}
+
+//Media Query
+
+@media (max-width:750px) {
+    .titlePadding {
+        padding-top: 120px;
+    }
+    .shortTitle, .mediumTitle {
+        width: auto;
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 405px) {
+    .logoPc{
+        width: 180px;
+        margin-top: 10px;
+    }
+    .footer{
+        font-size: 10px;
+    }
+}
+
+@media ( max-width: 350px) {
+    .logoPc{
+        width: 150px;
+        margin-top: 15px;
+    }
+    #tableRestaurante {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
